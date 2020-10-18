@@ -1,11 +1,9 @@
 package com.foo;
 
-import dev.morphia.annotations.Entity;
 import dev.morphia.annotations.Id;
 import dev.morphia.annotations.Version;
 
-@Entity
-public class MyEntity {
+public class MyEntity  {
     @Id
     private String id;
     @Version
